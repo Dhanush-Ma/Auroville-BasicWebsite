@@ -1,0 +1,144 @@
+body{
+    font-family:'Oxygen',sans-serif; 
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 720px;
+
+}
+/*hero*/
+a{
+    text-decoration: none;
+}
+.bg-img
+{
+    background-image: url("images/hero.jpeg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.bg-img h2
+{
+    text-align: center;
+    padding: 5px;
+    text-shadow: 0px 0px 2px black;
+    background: #F0C596;
+    margin-bottom: 0px;
+}
+
+.bg-img p{
+     text-align: center;      
+        padding: 0px;
+            text-shadow: 0px 0px 1px black;
+            background: #766965;
+            margin-top: 5px;
+ }
+
+/*middle*/
+.middle
+{
+    background-color: #C58276;
+    padding-top:10px ;
+    text-align: center;
+    color: #150D0A;
+    padding-bottom: 20px;
+    
+}
+.places
+{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+
+}
+.desc
+{
+    font-size: smaller;
+}
+
+.visit{
+    width: 150px;
+}
+
+.headings{
+    color: #766965;
+    text-shadow: 1px 1px 2px #766965;
+    font-size: large;
+}
+.photos {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/*guide*/
+.guide-info
+{
+    background: #766965;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.guide-card
+{
+        width: 416px;
+        height: 268px;
+        padding: 10px 30px;
+    background: hsla(211, 15%, 59%, 1);
+    
+        background: linear-gradient(90deg, hsla(211, 15%, 59%, 1) 38%, hsla(31, 98%, 57%, 1) 76%);
+    
+        background: -moz-linear-gradient(90deg, hsla(211, 15%, 59%, 1) 38%, hsla(31, 98%, 57%, 1) 76%);
+    
+        background: -webkit-linear-gradient(90deg, hsla(211, 15%, 59%, 1) 38%, hsla(31, 98%, 57%, 1) 76%);
+    
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#8897A7", endColorstr="#FD9425", GradientType=1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 15px;
+        border-bottom: 8px solid skyblue;
+        
+}
+
+#guide-img
+{
+            width: 200px;
+            height: 225px;
+            border-radius: 15px;
+        
+}
+.guide-details
+{
+    text-align: center;
+    padding: 10px;
+}
+
+#guide
+{
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+.description{
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+#guide-name
+{
+    font-size: x-large;
+    margin-top: 6px;
+    text-shadow: 0px 0px 2px black;
+}
+
+
